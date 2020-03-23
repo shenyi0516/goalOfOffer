@@ -41,4 +41,5 @@ public class Q07{
         TreeNode root = ConstructCore(pre,in);
         System.out.println("OK");
     }
+
 }

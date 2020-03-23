@@ -9,6 +9,9 @@ public class Q04 {
     static boolean Find(int[][] arr, int number){
         if(arr == null)
             return false;
+        //没有考虑到输入矩阵为空矩阵的情况 输入[],0
+        if(arr.length <= 0)
+            return false;
         int row = 0;
         int columns = arr[row].length - 1;
         while (row < arr.length && columns >= 0){
