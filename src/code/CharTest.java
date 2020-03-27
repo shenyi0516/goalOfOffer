@@ -7,9 +7,8 @@ package code;
  */
 public class CharTest {
     public static void main(String[] args) {
-        ListNode node = new ListNode(1);
-        ListNode node1 = node;
-        node1.next = new ListNode(2);
-        System.out.println(node.next.val);
+        int[] a = {0,1};
+        int i = 0;
+        System.out.println(a[i++]);
     }
 }
