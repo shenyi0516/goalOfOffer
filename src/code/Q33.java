@@ -19,7 +19,7 @@ import java.util.Arrays;
  * 后面m个数为右子树，如果，右子树中存在小于根节点的节点，则该子树不合法。
  * 递归地进行判断左子树和右子树是否为合法的二叉搜索树。
  */
-public class Q34 {
+public class Q33 {
     static public boolean verifyPostorder(int[] postorder) {
         if (postorder == null)
             return false;

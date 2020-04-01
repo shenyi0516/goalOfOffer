@@ -7,8 +7,11 @@ package code;
  */
 public class CharTest {
     public static void main(String[] args) {
-        int[] a = {0,1};
-        int i = 0;
-        System.out.println(a[i++]);
+        long number = (long)Math.pow(10,11-1)+895358918/11;
+        System.out.println(number);
+        System.out.println(895358918%11);
+    }
+    public static void number(TreeNode node){
+        node = new TreeNode(1);
     }
 }
